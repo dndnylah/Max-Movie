@@ -3,7 +3,7 @@ from flask import Flask, jsonify, abort
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173/mlc/", "https://dndnylah.github.io/mlc/Surprise", "https://dndnylah.github.io/mlc/", "https://dndnylah.github.io"])
+CORS(app, origins=["http://localhost:5173/mlc/Surprise", "https://dndnylah.github.io/mlc/Surprise", "https://dndnylah.github.io/mlc/", "https://dndnylah.github.io"])
 
 movies = [
     {"id": 0, "title": "Interstellar", "type": "film", "platform": "rent", "status": "watched"},
