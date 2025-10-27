@@ -32,6 +32,11 @@ movies = [
     {"id": 24, "title": "Love Rosie", "type": "film", "platform": "rent", "status": "unwatched"},
     {"id": 25, "title": "Love & Basketball", "type": "film", "platform": "rent", "status": "unwatched"},
     {"id": 26, "title": "The Goofy Movie", "type": "film", "platform": "disney", "status": "unwatched"},
+    {"id": 27, "title": "Nope", "type": "film", "platform": "youtube", "status": "unwatched"},
+    {"id": 28, "title": "The Italian Job", "type": "film", "platform": "rent", "status": "unwatched"},
+    {"id": 29, "title": "The Assessment", "type": "film", "platform": "hulu", "status": "unwatched"},
+    {"id": 30, "title": "Dark", "type": "series", "platform": "netflix", "status": "began"},
+
 ]
 
 @app.route("/api/movies", methods=["GET"])
