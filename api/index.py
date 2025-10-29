@@ -1,11 +1,11 @@
 # api/index.py
 from flask import Flask, jsonify, abort
 from flask_cors import CORS
-from flask_sqlalchemy import SQLAlchemy
+
 
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:5173/mlc/Surprise", "https://dndnylah.github.io/mlc/Surprise", "https://dndnylah.github.io/mlc/", "https://dndnylah.github.io"])
-db = SQLAlchemy(app)
+
 
 movies = [
     {"id": 0, "title": "Interstellar", "form": "film", "platform": "rent", "status": "watched"},
